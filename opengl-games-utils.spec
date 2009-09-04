@@ -1,6 +1,6 @@
 Name:           opengl-games-utils
 Version:        0.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Utilities to check proper 3d support before launching 3d games
 Group:          Games/Other
 License:        Public Domain
