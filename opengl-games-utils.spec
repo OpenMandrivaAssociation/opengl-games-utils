@@ -1,6 +1,6 @@
 Name:           opengl-games-utils
 Version:        0.1
-Release:        %mkrel 2
+Release:        %mkrel 3
 Summary:        Utilities to check proper 3d support before launching 3d games
 Group:          Games/Other
 License:        Public Domain
@@ -10,7 +10,7 @@ Source1:        opengl-game-functions.sh
 Source2:        README
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:      noarch
-Requires:       zenity mesa-demos
+Requires:       zenity glxinfo
 
 %description
 This package contains various shell scripts which are intented for use by
