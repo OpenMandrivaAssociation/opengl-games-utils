@@ -47,3 +47,23 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}
 
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1-4mdv2011.0
++ Revision: 613535
+- rebuild
+
+* Wed Feb 03 2010 Thierry Vignaud <tv@mandriva.org> 0.1-3mdv2010.1
++ Revision: 499987
+- requires glxinfo instead of mesa-demos
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.1-2mdv2010.0
++ Revision: 430209
+- rebuild
+
+* Wed Sep 03 2008 Emmanuel Andry <eandry@mandriva.org> 0.1-1mdv2009.0
++ Revision: 279402
+- import opengl-games-utils
+
+
